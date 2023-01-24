@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "Firago";
+    src: url('https://free.bboxtype.com/embedfonts/?family=FiraGO:400');
+  }
+  html, body{
+    margin: 0;
+  }
+
+body{
+    background: #FDFDFD;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+.card{
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 10px;
+    width: 718px;
+
+    padding-top: 40px;
+    padding-right: 51px;
+    padding-bottom: 24px;
+    padding-left: 47px;
+
+    margin-top: 300px;
+}
+h1{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+
+    color: #000000;
+    margin-bottom: 27px;
+}
+.input-item label{
+    display: block;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+    margin-bottom: 5px;
+
+}
+.input-item1 label{
+    display: block;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+    margin-bottom: 7px;
+}
+.input-item1 input{
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+
+    height: 14px;
+    width: 100%;
+
+    padding-top: 18px;
+    padding-bottom: 116px;
+    padding-left: 18px;
+
+    margin-bottom: 6px;
+}
+.input-item input{
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+
+    width: 100%;
+    height: 12px;
+
+    padding-top: 18px;
+    padding-left: 18px;
+    padding-bottom: 18px;
+    
+    margin-bottom: 13px;
+}
+.footer{
+    display: flex;
+    justify-content:end;
+    padding-top: 13px;
+    padding-bottom: 24px;
+    padding-left: 500px;
+}
+.btn{
+    background: #FFDD04;
+    border-radius: 10px;
+    width:205px;
+    height: 47px;
+    border: 1px #FFDD04;
+
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
